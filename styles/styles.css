@@ -8,27 +8,28 @@
     width: 300px;
 }
 
-.anav{
-    display: inline-block;
-    color:rgb(223, 42, 148);
-    padding: 10px 30px;
+.imagenBarra{
+    margin:0;
+    width: 80px;
+}
+
+.enlaceBarra{
+    display: inline-block ;
+    color:rgb(232, 65, 162);
     text-decoration: none;
     height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px
+    font-size: 15px;
+    margin: 10px 20px;
 }
 
-.anav:hover{
+.enlaceBarra:hover{
     background: rgb(86, 243, 211);
 }
 
-.navar{
-    background-color: rgb(70, 197, 216);
-    display: flex;
-    justify-content: space-around;
-    padding: 0 250px;
+.colorBarra{
+    background-color: rgb(70, 197, 216) !important;
 }
-
 
 .galeria{
     margin: 10px 20px;
