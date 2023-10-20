@@ -87,9 +87,9 @@
     width: 250px;
 }
 
-h2{
+.pie-pagina h2{
     color: blueviolet;
-    margin-bottom: 25px;
+    margin: 20px 0 0 0;
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -97,6 +97,7 @@ h2{
 .box p{
     color:rgb(223, 42, 148);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 20px 20px 0;
 }
 
 .pie-2{
