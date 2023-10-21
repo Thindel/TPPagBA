@@ -40,29 +40,37 @@
     background-color: rgb(70, 197, 216) !important;
 }
 
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 .galeria{
     margin: 10px 20px;
     float: left;
     width: 350px;
+    text-align: center;
+    display: block;
 }
 
 .galeria img{
-    width: 70%;
+    width: 50%;
     height: auto;
-    padding: 50px 60px;
+    margin: 50px;
 }
 
 .foto:hover{
     -webkit-transform: scale(1.2);
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 
 .pie{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
     font-size: 20px;
     text-align: center;
-    padding: 100px;
+    padding: 10px;
 }
 
 .pie-1{
