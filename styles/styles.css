@@ -66,6 +66,9 @@
     transform: scale(1.2);
 }
 
+.pie-pagina{
+    background-color: aquamarine;
+}
 
 .pie{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
@@ -81,7 +84,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    background-color: aquamarine;
 }
 
 .box figure{
@@ -110,7 +112,7 @@
 }
 
 .pie-2{
-    background-color: aqua;
+    background-color: rgb(100, 224, 224);
     text-align: center;
 }
 
