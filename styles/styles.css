@@ -17,7 +17,7 @@
 
 .nombreBarra:hover{
     color: rgb(86, 243, 211);
-    border: 5px solid rgb(232, 65, 162);
+    border: 3px solid rgb(232, 65, 162);
     border-radius: 20px;
 }
 
