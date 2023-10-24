@@ -3,12 +3,47 @@
     padding: 0;
 }
 
-.imagenprincipal{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 350px;
-    overflow: hidden;
+header {
+	width:100%;
+	overflow:hidden; 
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%;
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header .imagenprincipal {
+	line-height:200px;
+	float:left;
+    width: 300px;
+}
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+    color:rgb(232, 65, 162);
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+    color: rgb(86, 243, 211);
+    background-color: rgb(232, 65, 162);
+	border-radius:50px;
 }
 
 .nombreBarra{
@@ -17,6 +52,7 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    font-weight: bold;
     margin: 10px 20px;
     padding: 10px;
 }
@@ -35,6 +71,7 @@
     color:rgb(232, 65, 162);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     font-size: 15px;
     margin: 15px 20px;
     padding: 10px;
