@@ -19,7 +19,7 @@ header {
 header .imagenprincipal {
 	line-height:200px;
 	float:left;
-    width: 350px;
+    width: 300px;
 }
 
 header nav {
@@ -170,6 +170,19 @@ header nav a:hover {
     .imagenprincipal{
         margin: 0 0 0 100px;
         width: 150px;
+    }
+
+    header nav a {
+        display:inline-block;
+        color:rgb(232, 65, 162);
+        text-decoration:none;
+        padding:10px 20px;
+        line-height:normal;
+        font-size:10px;
+        font-weight:bold;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease;
     }
 
     .galeria img{
